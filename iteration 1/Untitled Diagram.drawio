@@ -4,17 +4,92 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HKkaY5HFSosxyiWEdpf5-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="170" width="30" height="60" as="geometry" />
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-1" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="290" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HKkaY5HFSosxyiWEdpf5-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="310" width="30" height="60" as="geometry" />
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-2" value="Public" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HKkaY5HFSosxyiWEdpf5-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="470" width="30" height="60" as="geometry" />
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-3" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="330" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HKkaY5HFSosxyiWEdpf5-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="620" width="30" height="60" as="geometry" />
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-4" value="Instructor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="500" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-9" value="Process Offerings" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="460" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.943;exitY=0.214;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HKkaY5HFSosxyiWEdpf5-9" target="HKkaY5HFSosxyiWEdpf5-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="470" as="sourcePoint" />
+            <mxPoint x="550" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-12" value="Register with the system" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="370" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="HKkaY5HFSosxyiWEdpf5-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="520" as="sourcePoint" />
+            <mxPoint x="190" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-15" value="Take offerings" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="540" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="520" as="sourcePoint" />
+            <mxPoint x="250" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-17" value="View available offerings" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="HKkaY5HFSosxyiWEdpf5-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="190" as="sourcePoint" />
+            <mxPoint x="200" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.086;entryY=0.243;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="HKkaY5HFSosxyiWEdpf5-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="350" as="sourcePoint" />
+            <mxPoint x="200" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-20" value="Process Bookings" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="HKkaY5HFSosxyiWEdpf5-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="350" as="sourcePoint" />
+            <mxPoint x="200" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-25" value="View/Cancel Booking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="HKkaY5HFSosxyiWEdpf5-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="360" as="sourcePoint" />
+            <mxPoint x="680" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.043;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="HKkaY5HFSosxyiWEdpf5-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="350" as="sourcePoint" />
+            <mxPoint x="200" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-28" value="Delete Account" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="640" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HKkaY5HFSosxyiWEdpf5-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="HKkaY5HFSosxyiWEdpf5-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="660" as="sourcePoint" />
+            <mxPoint x="440" y="610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
