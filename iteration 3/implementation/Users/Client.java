@@ -4,11 +4,11 @@ import Lesson.Offering;
 import Lesson.BookingCatalog;
 import Lesson.Booking;
 
-public class Instructor extends User{
+public class Client extends User{
 
     private int age;
 
-    public Instructor(String name, int pn, int age){
+    public Client(String name, int pn, int age){
         super(name,pn);
         this.age = age;
     }
