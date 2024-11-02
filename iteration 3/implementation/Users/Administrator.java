@@ -4,18 +4,20 @@ import Lesson.OfferingCatalog;
 import Lesson.Schedule;
 import Lesson.Location;
 import Lesson.Availability;
+import Lesson.AvailabilityCatalog;
 
 public class Administrator {
+    private String name = "Administrator";
 
     public Administrator(String name){
-        super(name);
+        super();
     }
 
     public void createOfferings(String lessonType, Schedule schedule, Location location) {
         OfferingCatalog Catalog = OfferingCatalog.getInstance();
         AvailabilityCatalog ac = AvailabilityCatalog.getInstance();
         Availability availability = ac.addAvailability(schedule, location);
-        Catalog.addOffering(lessonType, availability);
+        Catalog.addOffering(lessonType, location, schedule);
         availability.setUsed(true);
         System.out.println("Offering created for: " + lessonType + " and added to the Catalog.");
     }

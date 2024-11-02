@@ -1,5 +1,7 @@
 package Lesson;
 
+import Users.Client;
+
 public class Booking{
     private int id;
     private Client mainClient;

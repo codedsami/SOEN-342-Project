@@ -1,5 +1,7 @@
 package Users;
 
+import Lesson.OfferingCatalog;
+
 public abstract class User{
     private String name;
     private int phoneNumber;
@@ -15,7 +17,7 @@ public abstract class User{
     }
 
     public void viewOfferings(){
-        OfferingCatalogue.displayAllOfferings();
+        OfferingCatalog.displayAllOfferings();
     }
 
     public String getName(){

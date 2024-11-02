@@ -6,6 +6,8 @@ public class Offering {
 
     private int offeringID;
     private String lessonType;
+    private Location location; 
+    private Schedule schedule;
     private Availability availability;
     private boolean isVisibleToPublic;
     private boolean isInstructorSelected;
@@ -70,5 +72,15 @@ public class Offering {
     public void setInstructor(Instructor instructor) {
         this.instructor = instructor;
         this.isInstructorSelected = true;
+    }
+
+    public void setLocation(Location newLocation) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setLocation'");
+    }
+
+    public void setSchedule(Schedule newSchedule) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setSchedule'");
     }
 }

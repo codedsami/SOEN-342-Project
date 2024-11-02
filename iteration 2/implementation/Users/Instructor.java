@@ -23,7 +23,7 @@ public class Instructor {
     }
 
     public void viewOfferings(OfferingCatalogue catalogue){
-        catalogue.displayAllOfferings();
+        OfferingCatalogue.displayAllOfferings();
     }
 
 

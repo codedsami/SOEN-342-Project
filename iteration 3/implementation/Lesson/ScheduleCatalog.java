@@ -14,7 +14,7 @@ public class ScheduleCatalog {
     }
 
     public Schedule addSchedule(String day, String time){
-        Schedule schedule = new Schedule(day,time)
+        Schedule schedule = new Schedule(day,time);
         scheduleList.add(schedule);
         return schedule;
     }

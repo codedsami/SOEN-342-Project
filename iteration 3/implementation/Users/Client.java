@@ -39,7 +39,7 @@ public class Client extends User{
                 BookingCatalog bc = BookingCatalog.getInstance();
                 Booking booking = bc.addBooking(minor,offering);
                 booking.addLegalGuardian(this);
-                System.out.println("Booking with ID " + b.getID() + " created for " + minor.getName()+".");
+                System.out.println("Booking with ID " + booking.getID() + " created for " + minor.getName()+".");
             } else {
                 System.out.println("Offering with ID " + offeringId + " not found.");
             }

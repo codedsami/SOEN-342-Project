@@ -2,6 +2,8 @@ package Lesson;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import Users.Client;
+
 public class BookingCatalog {
     private static BookingCatalog instance = new BookingCatalog();
     private ArrayList<Booking> bookingList;
@@ -22,12 +24,12 @@ public class BookingCatalog {
 
     public Booking addBooking(Client client, Offering offering){
         Booking booking = new Booking(generateUniqueId(), client, offering);
-        BookingList.add(booking);
-        return Booking;
+        bookingList.add(booking);
+        return booking;
     }
 
     public boolean removeBooking(int bookingID){
-        Iterator<Offering> iterator = bookingList.iterator();
+        Iterator<Booking> iterator = bookingList.iterator();
         while (iterator.hasNext()) {
             Booking b = iterator.next();
             if (b.getID() == bookingID) {

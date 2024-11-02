@@ -20,7 +20,7 @@ public class AvailabilityCatalog {
     }
 
     public Availability addAvailability(Schedule schedule, Location location){
-        Availability availability = new Availability(generateUniqueId(), false, schedule, location);
+        Availability availability = new Availability(generateUniqueId(), false, location, schedule);
         availabilityList.add(availability);
         return availability;
     }

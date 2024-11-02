@@ -15,11 +15,11 @@ public class Instructor extends User{
         OfferingCatalog oc = OfferingCatalog.getInstance();
         Offering o = oc.getOfferingById(offeringId);
         if(o == null){
-            System.out.println("Offering with ID " + offeringId + " not found.");
+            System.out.println("Offering with ID " + o + " not found.");
         }else{
-            if (!(offering.isInstructorSelected())){
-                offering.setInstructor(this);
-                offering.setVisibility(true);
+            if (!(o.isInstructorSelected())){
+                o.setInstructor(this);
+                o.setVisibility(true);
             }
         }
     }
