@@ -19,4 +19,12 @@ public class Availability{
     public void setUsed(boolean used){
         this.used = used;
     }
+
+    @Override
+    public String toString(){
+        return "Availability{" +
+                ", location=" + location +
+                ", schedule=" + schedule +
+                '}';
+                }
 }

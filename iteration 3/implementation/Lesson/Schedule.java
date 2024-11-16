@@ -17,4 +17,12 @@ public class Schedule {
         return time;
     }
 
+    @Override
+    public String toString() {
+        return "Schedule{" +
+                "day='" + day + '\'' +
+                ", time='" + time + '\'' +
+                '}';
+    }
+
 }

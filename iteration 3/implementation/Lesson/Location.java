@@ -23,4 +23,13 @@ public class Location {
         return city;
     }
 
+    @Override
+    public String toString() {
+        return "Location{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                '}';
+    }
+
 }

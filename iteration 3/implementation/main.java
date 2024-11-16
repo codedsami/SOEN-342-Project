@@ -144,6 +144,7 @@ public class main {
                                 int offeringId = scanner.nextInt();
                                 scanner.nextLine();
                                 instructorUser.selectOfferings(offeringCatalog.getOfferingById(offeringId).getOfferingID());
+                                System.out.println("Instructor added to offering.");
                                 break;
                             case 2:
                                 instructorExit = true;
@@ -156,7 +157,7 @@ public class main {
 
                 case 3:
                     // Client
-                    Client clientUser = new Client("Client User", choice, choice);
+                    Client clientUser = new Client("Client User", choice, 20); // for testing purpose 20 is used
                     boolean clientExit = false;
                     while (!clientExit) {
                         System.out.println("\nClient Options:");
@@ -173,12 +174,14 @@ public class main {
                                 int bookId = scanner.nextInt();
                                 scanner.nextLine();
                                 clientUser.bookOffering(offeringCatalog.getOfferingById(bookId).getOfferingID());
+                                System.out.println("Client booked offering.");
                                 break;
                             case 2:
                                 System.out.print("Enter booking ID to cancel: ");
                                 int cancelId = scanner.nextInt();
                                 scanner.nextLine();
                                 clientUser.cancelBooking(cancelId);
+                                System.out.println("Client cancelled booking.");
                                 break;
                             case 3:
                                 clientExit = true;

@@ -38,7 +38,8 @@ public class OfferingCatalog {
         public void displayAvailableOfferings() {
             for (Offering offering : offerings) {
                 if (offering.getVisibility()) {
-                    System.out.println(offering);
+                    System.out.println(offering.getLessonType());
+                    System.out.println(offering.getAvailability());
                 }
             }
         }
